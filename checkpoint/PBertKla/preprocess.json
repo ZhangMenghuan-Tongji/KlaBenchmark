@@ -1,0 +1,18 @@
+{
+  "cleaning": {
+    "raw_sequence_semantics": {
+      "_": "padding",
+      "X": "unknown"
+    },
+    "proteinbert_input_conversion": "locally map '_' and other non-standard chars to 'X' before ProteinBERT encoding"
+  },
+  "expected_columns": [
+    "Sequence",
+    "Label"
+  ],
+  "label_values": [
+    0,
+    1
+  ],
+  "seq_len_for_training": 45
+}

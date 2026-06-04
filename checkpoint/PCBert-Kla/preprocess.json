@@ -1,0 +1,10 @@
+{
+  "method": "PCBert-Kla",
+  "dataset_name": "protein_dataset",
+  "seq_len": 51,
+  "train_seq_col": "Sequence",
+  "val_seq_col": "Sequence",
+  "test_seq_col": "Sequence",
+  "physchem_dim": 27,
+  "mode": "finetune_protbert_official_like"
+}

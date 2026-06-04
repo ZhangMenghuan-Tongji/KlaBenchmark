@@ -1,0 +1,5 @@
+# PyTorch-based method
+numpy==2.2.5
+pandas==2.3.2
+scikit-learn==1.7.1
+torch==2.5.1

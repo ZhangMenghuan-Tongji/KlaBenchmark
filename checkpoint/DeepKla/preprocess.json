@@ -1,0 +1,37 @@
+{
+  "seq_len": 51,
+  "vocab": {
+    "_": 0,
+    "A": 1,
+    "C": 2,
+    "D": 3,
+    "E": 4,
+    "F": 5,
+    "G": 6,
+    "H": 7,
+    "I": 8,
+    "K": 9,
+    "L": 10,
+    "M": 11,
+    "N": 12,
+    "P": 13,
+    "Q": 14,
+    "R": 15,
+    "S": 16,
+    "T": 17,
+    "V": 18,
+    "W": 19,
+    "Y": 20,
+    "X": 21
+  },
+  "cleaning": {
+    "padding_token": "_",
+    "unknown_token": "X",
+    "keep_existing_x": true,
+    "map_non_standard_to": "X",
+    "pad_truncate_to": 51
+  },
+  "train_tsv": "/data/home/yzhang/liyiqi/project/KlaAtlas_ms_new/methods/DeepKla-main/dataset/protein_dataset/split_protein.train.tsv",
+  "val_tsv": "/data/home/yzhang/liyiqi/project/KlaAtlas_ms_new/methods/DeepKla-main/dataset/protein_dataset/split_protein.val.tsv",
+  "test_tsv": "/data/home/yzhang/liyiqi/project/KlaAtlas_ms_new/methods/DeepKla-main/dataset/protein_dataset/split_protein.test.tsv"
+}
